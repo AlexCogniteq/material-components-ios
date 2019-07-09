@@ -184,7 +184,7 @@ static inline UIColor *RippleColor() {
   [super layoutSubviews];
 
   CGSize sizeThatFits = [_itemBar sizeThatFits:self.bounds.size];
-  _itemBar.frame = CGRectMake(0, 0, sizeThatFits.width, sizeThatFits.height);
+  _itemBar.frame = CGRectMake(0, 0, sizeThatFits.width, self.bounds.size.height);
 }
 
 #pragma mark - Public

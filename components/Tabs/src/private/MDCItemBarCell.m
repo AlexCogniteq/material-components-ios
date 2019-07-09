@@ -33,7 +33,7 @@ static const CGSize kImageSize = {24, 24};
 static const CGFloat kBadgeFontSize = 12;
 
 /// Padding between top of the cell and the badge.
-static const CGFloat kBadgeTopPadding = 6;
+static const CGFloat kBadgeTopPadding = 2;
 
 /// Outer edge padding from spec: https://material.io/go/design-tabs#spec.
 static const UIEdgeInsets kEdgeInsets = {.top = 0, .right = 16, .bottom = 0, .left = 16};
